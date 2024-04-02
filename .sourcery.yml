@@ -1,0 +1,11 @@
+sources:
+  - Giphygram
+templates:
+  - Sourcery/Templates/AutoMockable.stencil
+output:
+  GiphygramTests/AutoMockable.generated.swift
+args:
+  autoMockableImports:
+    - Combine
+  autoMockableTestableImports:
+    - Giphygram 
